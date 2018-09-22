@@ -1,4 +1,4 @@
-package com.example.jack.dogsmaganerapp.user_difined_view;
+package com.example.jack.dogsmaganerapp.user_defined_view;
 
 
 import android.content.Context;

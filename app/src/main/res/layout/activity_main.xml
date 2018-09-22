@@ -11,6 +11,7 @@
     android:paddingRight="@dimen/main_activity_padding"
     tools:context=".MainActivity">
 
+    <!--犬只管理-->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +19,7 @@
         android:background="@drawable/bg_dog_info_layout"
         >
 
-        <com.example.jack.dogsmaganerapp.user_difined_view.CircleImageView
+        <com.example.jack.dogsmaganerapp.user_defined_view.CircleImageView
             android:id="@+id/image_dog_photo"
             android:layout_width="60dp"
             android:layout_height="60dp"
@@ -34,7 +35,7 @@
             android:textSize="16sp"
             android:layout_marginBottom="3dp"
             android:layout_marginTop="6dp"
-            android:textColor="#000"
+            android:textColor="@color/colorBlack"
             android:text="拉布拉多"/>
 
         <TextView
@@ -65,7 +66,7 @@
             android:textSize="16sp"
             android:text="KG"/>
 
-        <com.example.jack.dogsmaganerapp.user_difined_view.CircleImageView
+        <com.example.jack.dogsmaganerapp.user_defined_view.CircleImageView
             android:id="@+id/image_map"
             android:layout_width="45dp"
             android:layout_height="45dp"
@@ -89,7 +90,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
-                    android:textColor="#000"
+                    android:textColor="@color/colorBlack"
                     android:text="分数    "
                     />
 
@@ -99,7 +100,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="35sp"
                     android:text="12"
-                    android:textColor="#000"/>
+                    android:textColor="@color/colorBlack"/>
 
                 <View
                     android:layout_width="wrap_content"
@@ -131,7 +132,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
-                    android:textColor="#000"
+                    android:textColor="@color/colorBlack"
                     android:text="记录    "/>
 
                 <TextView
@@ -139,12 +140,37 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="35sp"
-                    android:textColor="#000"
+                    android:textColor="@color/colorBlack"
                     android:text="-3"/>
             </LinearLayout>
         </LinearLayout>
 
     </RelativeLayout>
+
+    <!--公告栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--公告栏标题-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorBlack"
+            android:text="I   最新公告"
+            android:textSize="16sp"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recy_bulletin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
 
 
 
