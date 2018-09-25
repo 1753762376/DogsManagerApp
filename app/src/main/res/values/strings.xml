@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DogsMaganerApp</string>
+    <string name="bulletin_name_1">裕华区犬只管理处</string>
+    <string name="bulletin_title_1">关于饲养大型犬只的通知</string>
+    <string name="bulletin_name_2">桥西区犬只管理处</string>
+    <string name="bulletin_title_2">饲养犬只的注意事项</string>
+    <string name="bulletin_time_1">昨天</string>
+    <string name="bulletin_time_2">18-8-15</string>
 </resources>

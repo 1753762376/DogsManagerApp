@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/main_activity_padding"
     android:paddingLeft="@dimen/main_activity_padding"
     android:paddingRight="@dimen/main_activity_padding"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
     <!--犬只管理-->
     <RelativeLayout
@@ -166,15 +166,8 @@
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recy_bulletin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
+            android:layout_height="match_parent" />
 
     </LinearLayout>
-
-
-
-
-
-
 
 </LinearLayout>

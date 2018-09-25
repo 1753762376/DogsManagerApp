@@ -8,8 +8,8 @@
     <com.example.jack.dogsmaganerapp.user_defined_view.CircleImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:id="@+id/image_icon_bulletin"
-        android:src="@drawable/bg_dog_info_layout"/>
+        android:id="@+id/image_bulletin_icon"
+        android:src="@drawable/square_picture"/>
 
     <!--公告部门名字、公告时间-->
     <LinearLayout
@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_toRightOf="@+id/image_icon_bulletin">
+        android:layout_toRightOf="@+id/image_bulletin_icon">
 
         <!--公告部门名字-->
         <TextView
@@ -25,6 +25,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="6dp"
             android:text="裕华区犬只管理处"
             android:textColor="@color/colorBlack"/>
 
@@ -47,7 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linear_bulletin_first"
-        android:layout_toRightOf="@+id/image_icon_bulletin"
+        android:layout_toRightOf="@+id/image_bulletin_icon"
         android:orientation="horizontal">
 
         <!--公告内容标题-->
