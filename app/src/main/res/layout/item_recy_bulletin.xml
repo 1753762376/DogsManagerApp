@@ -2,12 +2,14 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="13dp">
 
     <!--部门icon-->
     <com.example.jack.dogsmaganerapp.user_defined_view.CircleImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginRight="4dp"
         android:id="@+id/image_bulletin_icon"
         android:src="@drawable/square_picture"/>
 
@@ -17,6 +19,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="2dp"
         android:layout_toRightOf="@+id/image_bulletin_icon">
 
         <!--公告部门名字-->
@@ -25,8 +29,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:layout_marginBottom="3dp"
-            android:layout_marginTop="6dp"
             android:text="裕华区犬只管理处"
             android:textColor="@color/colorBlack"/>
 
@@ -40,7 +42,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="14sp"
-            android:text="昨天"/>
+            android:text="昨天"
+            android:gravity="bottom"/>
 
     </LinearLayout>
 
@@ -58,6 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="14sp"
+            android:gravity="bottom"
             android:text="关于饲养大型犬只的通知"/>
     </LinearLayout>
 
